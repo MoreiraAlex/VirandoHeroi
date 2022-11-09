@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 import logo from '../../public/logo.svg'
 import card from '../assets/formasPagamento.svg'
-// import thumb from '../assets/Thumb1.jpg'
 
 export default function Home() {
   return (
@@ -25,7 +24,7 @@ export default function Home() {
         <section>
             <video controls poster='/Thumb1.jpg'></video>
             <button>quero me inscrever agora!</button>
-            <Image src={card} width={250} alt='Bandeiras de cartão de credito' />
+            {/* <Image src={card} width={250} alt='Bandeiras de cartão de credito' /> */}
         </section>
     </main>
   )

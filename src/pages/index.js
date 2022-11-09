@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Home from '../layout/Home'
+import Objections from '../layout/Objections'
 
 export default function Index() {
   return (
@@ -10,6 +11,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Home/>
+      <Objections/>
     </>
   )
 }
