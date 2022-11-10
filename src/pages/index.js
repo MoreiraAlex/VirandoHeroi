@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Content from '../layout/Content'
 import Home from '../layout/Home'
 import Objections from '../layout/Objections'
 
@@ -12,6 +13,7 @@ export default function Index() {
       </Head>
       <Home/>
       <Objections/>
+      <Content/>
     </>
   )
 }

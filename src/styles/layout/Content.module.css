@@ -1,0 +1,103 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 75px),50% 100%,0 calc(100% - 75px));
+    margin-bottom: -75px;
+    position: relative;
+    z-index: 3;
+    padding: 0 50px;
+    gap: 75px;
+}
+
+.content > header{
+    margin-top: 75px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content header h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.content > main {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.content > main:first-of-type > section:first-of-type > main:first-of-type{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 25px;
+}
+
+.content > main:first-of-type > section:last-of-type{
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content > main:first-of-type > section:last-of-type header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content > main:first-of-type > section:last-of-type header h3{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.content > main:first-of-type > section:last-of-type header p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.content > main:first-of-type > section:last-of-type > main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 550px) {
+    
+    .content {
+        clip-path: polygon(0 0,100% 0,100% calc(100% - 30px),50% 100%,0 calc(100% - 30px));
+        margin-bottom: -30px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+    .content header h2{
+        font-size: 36px;
+    }   
+    
+    .content > main:first-of-type > section:last-of-type header h3{
+        font-size: 36px;
+    }
+
+    .content > main:first-of-type > section:last-of-type header p{
+        font-size: 14px;
+    }
+}

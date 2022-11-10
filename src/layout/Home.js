@@ -1,9 +1,8 @@
-import styles from '../styles/layout/Main.module.css'
+import styles from '../styles/layout/Home.module.css'
 
 import Image from 'next/image'
 
 import logo from '../../public/logo.svg'
-import card from '../assets/formasPagamento.svg'
 
 export default function Home() {
   return (
@@ -24,7 +23,6 @@ export default function Home() {
         <section>
             <video controls poster='/Thumb1.jpg'></video>
             <button>quero me inscrever agora!</button>
-            {/* <Image src={card} width={250} alt='Bandeiras de cartão de credito' /> */}
         </section>
     </main>
   )
