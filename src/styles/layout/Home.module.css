@@ -10,7 +10,7 @@
     align-items: flex-start;
     padding-bottom: 150px;
     clip-path: polygon(0 0,100% 0,100% calc(100% - 75px),50% 100%,0 calc(100% - 75px));
-    z-index: 5;
+    z-index: 9;
     position: relative;
     margin-bottom: -75px;
     justify-content: space-between;

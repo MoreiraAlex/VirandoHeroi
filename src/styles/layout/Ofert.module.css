@@ -1,0 +1,121 @@
+.ofert {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 75px),50% 100%,0 calc(100% - 75px));
+    margin-bottom: -75px;
+    position: relative;
+    z-index: 4;
+    padding: 0 50px;
+    gap: 75px;
+    padding-bottom: 100px;
+}
+
+.ofert > header{
+    margin-top: 75px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofert header h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+ .ofert > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.ofert > main > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.ofert > main > section > span:first-of-type{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.ofert > main > section > span:first-of-type > span{
+    text-decoration: line-through;
+    color: var(--black);
+}
+
+.ofert > main > section > span:last-of-type{
+    font-size: 96px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.ofert > main > span{
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-primary);
+    background-color: var(--black);
+    padding: 15px 10px;
+}
+
+.ofert > main > button{
+    height: 100px;
+    width: 30%;
+    min-width: 300px;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    color: var(--black);
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 4px hsl(0, 0%, 0%, 80%);
+    font-family: var(--font-title);
+    font-size: 48px;
+    font-weight: 700;
+    transition: all 500ms;
+}
+
+.ofert > main > button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 1px 1px 3px hsl(0, 0%, 0%, 80%);
+}
+
+@media (max-width: 550px) {
+
+    .ofert header h2{
+        font-size: 36px;
+    }   
+    
+    .ofert {
+        clip-path: polygon(0 0,100% 0,100% calc(100% - 30px),50% 100%,0 calc(100% - 30px));
+        margin-bottom: -30px;
+    }
+    
+}
+
+@media (max-width: 470px) {
+    .ofert header h2{
+        font-size: 28px;
+    }   
+
+    .ofert > main > section > span:first-of-type{
+        font-size: 20px;
+    }
+    
+    .ofert > main > section > span:last-of-type{
+        font-size: 72px;
+    }
+    
+    .ofert > main > span{
+        font-size: 20px;
+    }
+}

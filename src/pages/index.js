@@ -3,6 +3,7 @@ import Content from '../layout/Content'
 import Depositions from '../layout/Depositions'
 import Home from '../layout/Home'
 import Objections from '../layout/Objections'
+import Ofert from '../layout/Ofert'
 import Professor from '../layout/Professor'
 
 export default function Index() {
@@ -18,6 +19,7 @@ export default function Index() {
       <Content/>
       <Depositions/>
       <Professor/>
+      <Ofert/>
     </>
   )
 }
