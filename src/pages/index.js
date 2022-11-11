@@ -5,6 +5,7 @@ import Home from '../layout/Home'
 import Objections from '../layout/Objections'
 import Ofert from '../layout/Ofert'
 import Professor from '../layout/Professor'
+import Warranty from '../layout/Warranty'
 
 export default function Index() {
   return (
@@ -20,6 +21,7 @@ export default function Index() {
       <Depositions/>
       <Professor/>
       <Ofert/>
+      <Warranty/>
     </>
   )
 }
