@@ -48,6 +48,15 @@
     }
 } 
 
+@media (max-width: 550px) {
+    
+    .depositions {
+        clip-path: polygon(0 0,100% 0,100% calc(100% - 30px),50% 100%,0 calc(100% - 30px));
+        margin-bottom: -30px;
+    }
+    
+}
+
 
 @media (max-width: 420px) {
     .depositions header h2{
