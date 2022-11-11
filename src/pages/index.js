@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Content from '../layout/Content'
+import Depositions from '../layout/Depositions'
 import Home from '../layout/Home'
 import Objections from '../layout/Objections'
 
@@ -14,6 +15,7 @@ export default function Index() {
       <Home/>
       <Objections/>
       <Content/>
+      <Depositions/>
     </>
   )
 }

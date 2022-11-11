@@ -2,7 +2,7 @@ import styles from '../styles/layout/Content.module.css'
 
 import Image from 'next/image'
 
-import bat from '../assets/icons/bat.svg'
+import bat from '../assets/icons/batYellow.svg'
 import firstStep from '../assets/icons/primeirosPassos.svg'
 import etica from '../assets/icons/etica.svg'
 import win from '../assets/icons/ganhandoReputação.svg'
@@ -18,7 +18,7 @@ export default function Content() {
   return (
     <section className={styles.content}>
        <header>
-            <Image src={bat} width={150} height={150}/>
+            <Image src={bat} width={150} height={150} alt='Logo do batman'/>
             <h2>O QUE VOCÊ IRÁ APRENDER</h2>
        </header>
        <main>
