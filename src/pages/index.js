@@ -5,6 +5,7 @@ import Home from '../layout/Home'
 import Objections from '../layout/Objections'
 import Ofert from '../layout/Ofert'
 import Professor from '../layout/Professor'
+import Questions from '../layout/Questions'
 import Warranty from '../layout/Warranty'
 
 export default function Index() {
@@ -22,6 +23,7 @@ export default function Index() {
       <Professor/>
       <Ofert/>
       <Warranty/>
+      <Questions/>
     </>
   )
 }

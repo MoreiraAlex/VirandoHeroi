@@ -1,0 +1,88 @@
+.accordion {
+    width: 100%;
+    position: relative;
+}
+
+.accordion > header {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.accordion > header:hover {
+    cursor: pointer;
+}
+
+.accordion > header > h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--white);
+    transition: all 500ms;
+}
+
+.accordionOpen > header > h3 {
+    color: var(--color-primary);
+}
+
+.accordion > main {
+    background-color: var(--color-secundary);
+    height: 0;
+    overflow-y: hidden;
+    transition: 3000ms;
+    transition: height 500ms;
+}
+
+.accordionOpen > main {
+    height: 150px;
+}
+
+.accordion p {
+    padding: 30px 20px;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.icon {
+    font-size: 40px;
+    fill: var(--white);
+    transition: all 500ms;
+}
+
+.iconOpen {
+    transform: rotate(180deg);
+    fill: var(--color-primary);
+}
+
+
+@media (max-width: 900px) {
+    .accordion > header > h3 {
+        font-size: 20px;
+    } 
+
+    .accordion p {
+        padding: 20px;
+        font-size: 16px;
+    }    
+}
+
+@media (max-width: 600px) {
+    .accordionOpen > main {
+        height: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .accordion > header > h3 {
+        font-size: 18px;
+    } 
+    .accordion p {
+        font-size: 14px;
+    }
+    .accordionOpen > main {
+        height: 200px;
+    }
+}
