@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Content from '../layout/Content'
 import Depositions from '../layout/Depositions'
+import Footer from '../layout/Footer'
 import Home from '../layout/Home'
 import Objections from '../layout/Objections'
 import Ofert from '../layout/Ofert'
@@ -24,6 +25,7 @@ export default function Index() {
       <Ofert/>
       <Warranty/>
       <Questions/>
+      <Footer/>
     </>
   )
 }
