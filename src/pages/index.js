@@ -9,7 +9,19 @@ import Professor from '../layout/Professor'
 import Questions from '../layout/Questions'
 import Warranty from '../layout/Warranty'
 
+import TagManager from 'react-gtm-module'
+
+import { useEffect } from 'react'
+
 export default function Index() {
+
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: 'G-9WQ0F7S0K3'
+    }
+    TagManager.initialize(tagManagerArgs)
+  },[])
+
   return (
     <>
       <Head>
