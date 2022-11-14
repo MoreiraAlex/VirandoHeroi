@@ -67,9 +67,13 @@
     padding: 15px 10px;
 }
 
-.ofert > main > button{
-    height: 100px;
+.ofert > main > a {
     width: 30%;
+}
+
+.ofert > main > a > button{
+    height: 100px;
+    width: 100%;
     min-width: 300px;
     text-transform: uppercase;
     background-color: var(--color-primary);
@@ -83,7 +87,7 @@
     transition: all 500ms;
 }
 
-.ofert > main > button:hover{
+.ofert > main > a > button:hover{
     transform: scale(1.1);
     cursor: pointer;
     box-shadow: 1px 1px 3px hsl(0, 0%, 0%, 80%);

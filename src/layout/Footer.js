@@ -15,7 +15,7 @@ export default function Footer() {
                 Desenvolvido por <a href="https://github.com/MoreiraAlex" target="_blank">Alex Moreira</a>
             </span>
         </section>
-        <Link href=''>Politica de Privacidade & Termos de Uso</Link>
+        <Link href='/policy'>Politica de Privacidade & Termos de Uso</Link>
     </footer>
   )
 }

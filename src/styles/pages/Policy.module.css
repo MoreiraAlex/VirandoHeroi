@@ -1,0 +1,87 @@
+.header {
+    padding: 50px ;
+    padding-bottom: 0;
+    background-color: black;
+
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.policy {
+    padding: 50px ;
+    background-color: black;
+}
+
+.policy h2, .policy h3,
+.policy p, .policy li, .policy strong{
+    color: var(--white);
+}
+
+.policy div {
+    margin-bottom: 50px;
+}
+
+.policy h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.policy h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.policy p {
+    margin-bottom: 5px;
+}
+
+.policy ol {
+    list-style: upper-roman;
+}
+
+.policy li {
+    margin: 10px 0;
+    margin-left: 20px;
+}
+
+.policy > a > button{
+    height: 40px;
+    width: 25%;
+    min-width: 200px;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    color: var(--black);
+    outline: none;
+    border: none;
+    font-family: var(--font-title);
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 500ms;
+}
+
+.policy > a > button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px){
+    .policy p , .policy li {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 400px){
+
+    .header {
+        padding: 25px;
+        padding-bottom: 0px;
+    }
+
+    .policy {
+        padding: 25px;
+    }
+}

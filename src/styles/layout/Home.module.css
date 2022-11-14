@@ -46,6 +46,11 @@
     min-width: 400px;
 }
 
+.main > section:last-of-type > a{
+    width: 100%;
+}
+
+
 .main > section:last-of-type button{
     height: 50px;
     width: 100%;

@@ -2,6 +2,8 @@ import styles from '../styles/layout/Home.module.css'
 
 import Image from 'next/image'
 
+import { Link } from 'react-scroll'
+
 import logo from '../../public/logo.svg'
 
 export default function Home() {
@@ -22,7 +24,9 @@ export default function Home() {
         </section>
         <section>
             <video controls poster='/Thumb1.jpg'></video>
-            <button>quero me inscrever agora!</button>
+            <Link to='ofert' spy={true} smooth={true} offset={100} duration={1800}>
+                <button>quero me inscrever agora!</button>
+            </Link>
         </section>
     </main>
   )
