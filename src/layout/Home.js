@@ -17,10 +17,10 @@ export default function Home() {
                 se torne um herói<br/>
                 <span>de uma vez por todas</span>
             </h1>
-            <p>
+            {/* <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/>
                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
+            </p> */}
         </section>
         <section>
             <video controls poster='/Thumb1.jpg'></video>

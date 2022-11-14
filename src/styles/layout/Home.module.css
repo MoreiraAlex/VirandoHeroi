@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    gap: 25px;
     padding-bottom: 150px;
     clip-path: polygon(0 0,100% 0,100% calc(100% - 75px),50% 100%,0 calc(100% - 75px));
     z-index: 9;
@@ -28,11 +29,6 @@
 .main > section:first-of-type h1 > span{
     color: var(--color-primary);
     font-family: var(--font-title)
-}
-
-.main > section:first-of-type p{
-    color: var(--white);
-    font-weight: 400;
 }
 
 .main > section:last-of-type{
