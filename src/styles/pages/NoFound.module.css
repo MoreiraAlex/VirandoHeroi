@@ -1,0 +1,23 @@
+.noFound {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    padding: 25px;
+}
+
+.noFound h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .noFound h1 {
+        font-size: 36px;
+    }   
+}
