@@ -27,7 +27,12 @@
 @media (max-width: 600px) {
 
     .depositionsCard {
-        min-width: 200px;
+        width: 45vw;
+        min-width: 0;    
+    }
+
+    .depositionsCard h4{
+        font-size: 20px;
     }
 
     .depositionsCard p {
